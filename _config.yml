@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Anthony Lem's Homepage"
 title_separator          : "-"
 name                     : &name "Anthony Lem"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Anthony Lem"
   pronouns         : # example: "she/her"  
-  bio              : "M.Sc. in Computer Science at University of Toronto / Aspiring Machine Learning Engineer and Researcher"
+  bio              : "M.Sc. in Computer Science at University of Toronto"
   location         : "Canada"
   employer         :
   uri              : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/anthony-lem-66a43b334/"
+  linkedin         : "anthony-lem-66a43b334/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
