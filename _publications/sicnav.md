@@ -12,4 +12,5 @@ citation: ''
 show: true
 header:
   teaser: "publications/sicnav.gif"
+authors: [Sepehr Samavi, Anthony Lem, Fumiaki Sato, Sirui Chen, Qiao Gu, Keijiro Yano, Angela Schoellig, Florian Shkurti]
 ---

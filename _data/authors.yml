@@ -1,13 +1,36 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Anthony Lem:
+  name        : "Anthony Lem"
+  me          : true
+
+Angela Schoellig:
+  name        : "Angela P. Schoellig"
+  url         : "https://www.dynsyslab.org/prof-angela-schoellig/"
+
+Florian Shkurti:
+  name        : "Florian Shkurti"
+  url         : "https://www.cs.toronto.edu/~florian/"
+
+Fumiaki Sato:
+  name        : "Fumiaki Sato"
+  url         : "https://www.linkedin.com/in/fumiaki-sato-aa1347188/"
+
+Keijiro Yano:
+  name        : "Keijiro Yano"
+  url         : "https://www.linkedin.com/in/keijiro-yano-892379a4/"
+
+Qiao Gu:
+  name        : "Qiao Gu"
+  url         : "https://georgegu1997.github.io/"
+
+Sepehr Samavi:
+  name        : "Sepehr Samavi"
+  url         : "http://dsl.utias.utoronto.ca/~sep/"
+
+Sirui Chen:
+  name        : "Sirui Chen"
+  url         : "https://www.linkedin.com/in/sirui-c-6492a0232/"
 
 Name2 Name2:
   name        : "Name2 Name2"
