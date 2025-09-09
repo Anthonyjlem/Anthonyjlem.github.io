@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I completed my M.Sc. in Computer Science in the [Robot Vision & Learning (RVL) Lab] at the University of Toronto under the supervision of Professor [Florian Shkurti]. My research focused on generative AI for robot perception. Before that, I received my BASc. in Engineering Science at the University of Toronto, where I was fortunate to work with Professor [Konstantinos Plataniotis] and Professor [Florian Shkurti]. I also had an internship at Qualcomm.
+Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning (RVL) Lab](https://rvl.cs.toronto.edu/) at the University of Toronto under the supervision of Professor [Florian Shkurti](https://www.cs.toronto.edu/~florian/). My research focused on generative AI for robot perception. Before that, I received my BASc. in Engineering Science at the University of Toronto, where I was fortunate to research at the [Multimedia Laboratory](https://www.dsp.utoronto.ca/) under the supervision of Professor [Konstantinos Plataniotis](https://www.comm.utoronto.ca/~kostas/). I also had an internship at Qualcomm.
 
 # Publications {#publications}
 
