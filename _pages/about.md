@@ -11,9 +11,7 @@ Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning 
 
 # Publications {#publications}
 
-{% include base_path %}
-
-* indicates equal contribution.
+\* indicates equal contribution.
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
