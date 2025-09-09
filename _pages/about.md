@@ -13,15 +13,13 @@ Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning 
 
 \* indicates equal contribution.
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
+<div class="grid__wrapper">
   {% for post in site.publications reversed %}
     {% if post.show %}
-      {% include archive-single.html %}
+      {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
-</tbody>
-</table>
+</div>
 
 # Projects {#projects}
 
