@@ -110,3 +110,7 @@ html {
   flex: 1;            /* take remaining space */
   padding-top: 0;
 }
+
+.pub-entry .archive__item-details > *:first-child {
+  margin-top: 0;
+}
