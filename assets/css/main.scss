@@ -84,6 +84,8 @@ html {
 }
 
 .pub-entry img {
+  display: block;
+  margin: 0;
   max-height: 100%;       /* don’t exceed text height */
   width: auto;            /* keep aspect ratio */
   align-self: flex-start; /* top-align with text */
