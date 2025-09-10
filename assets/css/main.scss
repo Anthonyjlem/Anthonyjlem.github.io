@@ -84,8 +84,10 @@ html {
 }
 
 .pub-entry img {
-  display: block;      /* removes default inline spacing */
-  margin-top: 0;       /* ensure no extra margin */
+  max-height: 100%;       /* don’t exceed text height */
+  width: auto;            /* keep aspect ratio */
+  align-self: flex-start; /* top-align with text */
+  object-fit: contain;
 }
 
 .pub-entry h2 {
