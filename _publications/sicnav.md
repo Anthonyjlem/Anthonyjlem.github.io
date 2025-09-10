@@ -3,12 +3,11 @@ title: "SICNav-Diffusion: Safe and Interactive Crowd Navigation with Diffusion T
 collection: publications
 category: manuscripts
 permalink: /publication/sicnav
-excerpt: ''
 date: 2025-03-01
 venue: 'Robotics and Automation Letter (RA-L), 2025'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11068142'
 link: 'https://ieeexplore.ieee.org/abstract/document/11068142'
-citation: ''
+video: 'https://www.youtube.com/watch?v=up0uXhmWhKw'
 show: true
 header:
   teaser: "publications/sicnav.gif"
