@@ -49,6 +49,11 @@
     text-align: center;
   }
 
+  .pub-entry img {
+    margin: 0 auto;            /* center image */
+    display: block;            /* required for margin auto to work */
+  }
+
   .archive__item-teaser img {
     max-width: 100%;
   }
