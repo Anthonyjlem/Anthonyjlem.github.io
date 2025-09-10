@@ -13,10 +13,10 @@ Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning 
 
 \* indicates equal contribution.
 
-<div class="grid__wrapper">
+<div class="pub-list">
   {% for post in site.publications reversed %}
     {% if post.show %}
-      {% include archive-single.html type="grid" %}
+      {% include archive-single.html %}
     {% endif %}
   {% endfor %}
 </div>
