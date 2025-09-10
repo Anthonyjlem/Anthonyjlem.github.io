@@ -43,7 +43,7 @@
 ;
 
 @media (max-width: 600px) {
-  .archive__item {
+  .pub-entry {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -69,7 +69,7 @@ html {
   margin: 0;
 }
 
-.archive__item {
+.pub-entry {
   display: flex;
   align-items: flex-start; /* align image with top of text */
   gap: 1rem;               /* space between image and text */
