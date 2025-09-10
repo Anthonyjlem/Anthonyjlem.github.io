@@ -42,23 +42,6 @@
     "vendor/font-awesome/brands"
 ;
 
-@media (max-width: 600px) {
-  .pub-entry {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .pub-entry img {
-    margin: 0 auto;            /* center image */
-    display: block;            /* required for margin auto to work */
-  }
-
-  .archive__item-teaser img {
-    max-width: 100%;
-  }
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -118,4 +101,50 @@ html {
 
 .pub-entry .archive__item-details > *:first-child {
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .archive__item.pub-entry,
+  .pub-entry {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 0.75rem !important;
+  }
+
+  /* Make teaser container a flex box so its contents can be centered reliably */
+  .archive__item.pub-entry .archive__item-teaser,
+  .pub-entry .archive__item-teaser {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Image: centered, responsive, no floats/positioning/shadows */
+  .archive__item.pub-entry .archive__item-teaser img,
+  .pub-entry .archive__item-teaser img {
+    display: block !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;   /* scale down on small screens */
+    height: auto !important;
+    object-fit: contain !important;
+    float: none !important;
+    position: static !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  /* Keep text full width but optionally left-align it */
+  .archive__item.pub-entry .archive__item-details,
+  .pub-entry .archive__item-details {
+    width: 100% !important;
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
