@@ -71,7 +71,7 @@ html {
 
 .pub-entry {
   display: flex;
-  align-items: flex-start; /* align image with top of text */
+  align-items: baseline; /* align text and image by their text baseline */
   gap: 1rem;               /* space between image and text */
   margin-bottom: 2rem;     /* space between publication entries */
   font-size: 0.9rem;
