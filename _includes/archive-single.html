@@ -46,16 +46,16 @@
           {% if author.me %}
             <strong>
               {% if author.url %}
-                <a href="{{ author.url }}">{{ author.name }}</a>
+                <a href="{{ author.url }}">{{- author.name -}}</a>
               {% else %}
-                {{ author.name }}
+                {{- author.name -}}
               {% endif %}
             </strong>
           {% else %}
             {% if author.url %}
-              <a href="{{ author.url }}">{{ author.name }}</a>
+              <a href="{{ author.url }}">{{- author.name -}}</a>
             {% else %}
-              {{ author.name }}
+              {{- author.name -}}
             {% endif %}
           {% endif %}
     
