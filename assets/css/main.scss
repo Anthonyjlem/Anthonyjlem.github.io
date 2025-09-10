@@ -73,7 +73,12 @@ html {
   display: flex;
   align-items: flex-start; /* align image with top of text */
   gap: 1rem;               /* space between image and text */
-  // margin-bottom: 2rem;     /* space between publication entries */
+  margin-bottom: 2rem;     /* space between publication entries */
+}
+
+.pub-entry p {
+  margin-bottom: 0em; /* Reduce space between lines */
+  line-height: 1.2;   /* Reduce line height */
 }
 
 .archive__item-teaser {
