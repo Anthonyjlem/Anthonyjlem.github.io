@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/sicnav
 date: 2025-03-01
 venue: 'Robotics and Automation Letter (RA-L), 2025'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/11068142'
+paperurl: 'https://arxiv.org/pdf/2503.08858'
 link: 'https://ieeexplore.ieee.org/abstract/document/11068142'
 video: 'https://www.youtube.com/watch?v=up0uXhmWhKw'
 show: true
