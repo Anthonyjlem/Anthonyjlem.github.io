@@ -11,8 +11,6 @@ Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning 
 
 # Publications {#publications}
 
-\* indicates equal contribution.
-
 <div class="pub-list">
   {% for post in site.publications reversed %}
     {% if post.show %}
