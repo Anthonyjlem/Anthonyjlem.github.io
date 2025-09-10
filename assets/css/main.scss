@@ -83,15 +83,19 @@ html {
   line-height: 1.2;   /* Reduce line height */
 }
 
+.pub-entry img {
+  display: block;      /* removes default inline spacing */
+  margin-top: 0;       /* ensure no extra margin */
+}
+
+.pub-entry h2 {
+  margin-top: 0;
+}
+
 .archive__item-teaser {
   max-width: 300px;   /* adjust thumbnail size */
   height: auto;
   border-radius: 6px; /* optional, rounded corners */
-}
-
-.pub-entry img {
-  display: block;      /* removes default inline spacing */
-  margin-top: 0;       /* ensure no extra margin */
 }
 
 .archive__item-details {
