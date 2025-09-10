@@ -3,7 +3,7 @@ title: "Animated Wallpaper Generation"
 collection: portfolio
 permalink: /portfolio/wallpaper
 date: 2025-09-10
-code: 'github.com/Anthonyjlem/Animated-Wallpaper-Generation'
+code: 'https://github.com/Anthonyjlem/Animated-Wallpaper-Generation'
 show: true
 header:
   teaser: "portfolio/wallpaper.gif"
