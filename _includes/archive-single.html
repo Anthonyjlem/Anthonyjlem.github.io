@@ -42,18 +42,21 @@
       <p class="archive__item-authors">
         {% for author_id in post.authors %}
           {% assign author = site.data.authors[author_id] %}
-          {% capture author_name %}
-            {% if author.url %}
-              <a href="{{ author.url}}">{{ author.name}}</a>
-            {% else %}
-              {{ author.name}}
-            {% endif %}
-          {% endcapture %}
     
           {% if author.me %}
-            <strong>{{ author_name| strip}}</strong>
+            <strong>
+              {% if author.url %}
+                <a href="{{ author.url }}">{{ author.name }}</a>
+              {% else %}
+                {{ author.name }}
+              {% endif %}
+            </strong>
           {% else %}
-            {{ author_name| strip}}
+            {% if author.url %}
+              <a href="{{ author.url }}">{{ author.name }}</a>
+            {% else %}
+              {{ author.name }}
+            {% endif %}
           {% endif %}
     
           {% unless forloop.last %}, {% endunless %}
