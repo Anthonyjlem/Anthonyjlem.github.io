@@ -74,7 +74,7 @@ html {
   align-items: flex-start; /* align image with top of text */
   gap: 1rem;               /* space between image and text */
   margin-bottom: 2rem;     /* space between publication entries */
-  font-size: 0.9rem;
+  font-size: 0.1rem;
   line-height: 1.2;
 }
 
@@ -87,6 +87,11 @@ html {
   max-width: 300px;   /* adjust thumbnail size */
   height: auto;
   border-radius: 6px; /* optional, rounded corners */
+}
+
+.pub-entry img {
+  display: block;      /* removes default inline spacing */
+  margin-top: 0;       /* ensure no extra margin */
 }
 
 .archive__item-details {
