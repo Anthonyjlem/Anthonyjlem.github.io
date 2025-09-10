@@ -84,7 +84,6 @@ html {
 }
 
 .pub-entry img {
-  border: 1px solid red;
   display: block;
   margin: 0;
   max-height: 100%;       /* don’t exceed text height */
@@ -106,7 +105,6 @@ html {
 }
 
 .archive__item-details {
-  border: 1px solid purple;
   flex: 1;            /* take remaining space */
   padding-top: 0;
 }
