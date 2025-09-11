@@ -7,5 +7,6 @@ show: true
 header:
   teaser: "portfolio/database.jpg"
 project_type: "Group Course"
-excerpt: "Built a database system in Java with multiple servers that could be dynamically removed or added. Implemented LRU cache replacement strategy to speed up queries to servers."
+video: 'https://www.youtube.com/watch?v=M9eSxKGZ9yA'
+excerpt: "Built a distributed database system inspired by Amazon's Dynamo in Java with multiple servers that could be dynamically removed or added. System featured data replication across servers, heart beat for server failure detection, and gossiping to achieve eventual consistency."
 ---
