@@ -22,7 +22,8 @@ Hello! I completed my M.Sc. in Computer Science at the [Robot Vision & Learning 
 # Projects {#projects}
 
 <div class="proj-list">
-  {% for post in site.portfolio reversed %}
+  {% assign portfolio = site.portfolio | sort: "date" | reverse %}
+  {% for post in portfolio %}
     {% if post.show %}
       {% include archive-single.html %}
     {% endif %}
