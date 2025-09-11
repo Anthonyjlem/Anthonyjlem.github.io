@@ -99,10 +99,12 @@
         <p>Recommended citation: {{ post.citation }}</p>
       {% elsif post.paperurl and post.bibtexurl %}
         <p><a href=" {{ post.paperurl }} ">[paper]</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.paperurl and post.video and post.code%}
+      {% elsif post.paperurl and post.video and post.code %}
         <div><a href=" {{ post.paperurl }} ">[paper]</a> <a href=" {{ post.video }} ">[video]</a> <a href=" {{ post.code }} ">[code]</a></div>
-      {% elsif post.code%}
+      {% elsif post.code %}
         <div><a href=" {{ post.code }} ">[code]</a></div>
+      {% elsif post.video %}
+        <div><a href=" {{ post.video }} ">[video]</a></div>
       {% elsif post.paperurl %}
         <div><a href=" {{ post.paperurl }} ">[paper]</a></div>
       {% elsif post.slidesurl and post.bibtexurl %}
