@@ -3,6 +3,7 @@ title: "Compositional Premise Retrieval"
 collection: portfolio
 permalink: /portfolio/premise
 date: 2023-12-31
+code: 'https://github.com/GouQi12138/CompositionalPremiseRetrieval'
 show: true
 header:
   teaser: "portfolio/premise.jpg"
